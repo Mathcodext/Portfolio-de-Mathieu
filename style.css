@@ -13,7 +13,7 @@ header {
     text-align: center;
 }
 .mindmap {
-    margin: 0cm auto
+    margin: 0cm;
     display: block
     max-width: 100%
     height: auto
@@ -26,12 +26,12 @@ header {
 }
 
 .info-section h2 {
-    color: White;
+    color: #333;
 }
 
 .info-section ul {
     list-style-type: none;
-    padding: 0;
+    padding: 2;
 }
 
 .info-section ul li {
@@ -42,13 +42,13 @@ header {
 .kanban-board {
     display: flex;
     justify-content: space-around;
-    margin: 20px;
+    margin: 12px;
 }
 
 .kanban-column {
     background-color: #cce5ff;
     padding: 10px;
-    width: 30%;
+    width: 15%;
     border-radius: 5px;
 }
 
