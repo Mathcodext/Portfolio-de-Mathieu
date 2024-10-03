@@ -1,3 +1,4 @@
+/* Style de base pour la page */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -12,12 +13,54 @@ header {
     text-align: center;
 }
 
-section {
+.info-section {
     margin: 20px;
     padding: 10px;
-    background-color: white;
+    background-color: #e0e0e0;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.info-section h2 {
+    color: #333;
+}
+
+.info-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.info-section ul li {
+    margin-bottom: 10px;
+}
+
+/* Kanban Board Styles */
+.kanban-board {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.kanban-column {
+    background-color: #cce5ff;
+    padding: 10px;
+    width: 30%;
+    border-radius: 5px;
+}
+
+.kanban-column h3 {
+    text-align: center;
+    background-color: #0056b3;
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
+
+.kanban-card {
+    background-color: white;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 footer {
