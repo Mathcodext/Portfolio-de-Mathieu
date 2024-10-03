@@ -12,7 +12,7 @@ header {
     padding: 10px;
     text-align: center;
 }
-.image-avec-marge {
+.mindmap {
     margin: 4cm auto; /* Cela ajoute la marge et centre l'image horizontalement */
     display: block; /* Nécessaire pour centrer l'image */
     max-width: 125%; /* Ajuste la taille de l'image selon l'espace disponible */
