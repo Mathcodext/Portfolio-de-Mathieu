@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma Premire Page Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur ma premire page web !</h1>
+    </header>
+
+    <section>
+        <p>Ceci est une page web basique cre en HTML et stylise avec CSS.</p>
+    </section>
+
+    <footer>
+        <p>Fait par [Ton Nom]</p>
+    </footer>
+</body>
+</html>
