@@ -13,10 +13,10 @@ header {
     text-align: center;
 }
 .mindmap {
-    margin: 1cm auto; /* Cela ajoute la marge et centre l'image horizontalement */
-    display: block; /* Nécessaire pour centrer l'image */
-    max-width: 125%; /* Ajuste la taille de l'image selon l'espace disponible */
-    height: auto; /* Garde le ratio d'aspect de l'image */
+    margin: 0cm auto
+    display: block
+    max-width: 100%
+    height: auto
 }
 .info-section {
     margin: 20px;
